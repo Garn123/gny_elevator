@@ -58,7 +58,7 @@ local CreateElevators = function()
         for _, data in pairs(v) do
             local zone = exports.ox_target:addSphereZone({
                 coords = data.coords,
-                radius = 3,
+                radius = 1.5,
                 options = {
                     {
                         name = data.name,
